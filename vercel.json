@@ -1,10 +1,5 @@
 {
-  "functions": {
-    "app/**": {
-      "runtime": "@vercel/static-build"
-    }
-  },
-  "buildCommand": "rm -rf node_modules package-lock.json && npm install && npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist",
   "installCommand": "npm install --prefer-offline --no-audit --progress=false",
   "framework": null
