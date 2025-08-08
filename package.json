@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "postinstall": "npm rebuild rollup",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.app.json --watch",
     "build:analyze": "vite build && vite-bundle-analyzer dist",
@@ -25,5 +26,11 @@
     "@tailwindcss/vite": "^4.1.11",
     "lucide-svelte": "^0.537.0",
     "tailwindcss": "^4.1.11"
+  },
+  "overrides": {
+    "rollup": "^4.9.0"
+  },
+  "resolutions": {
+    "rollup": "^4.9.0"
   }
 }
