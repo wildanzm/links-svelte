@@ -23,19 +23,19 @@
 </script>
 
 <svelte:head>
-	<title>{PROFILE_DATA.name} - Link</title>
-	<meta name="description" content="{PROFILE_DATA.name} - {PROFILE_DATA.role}" />
+	<title>{PROFILE_DATA.name} | Link</title>
+	<meta name="description" content="{PROFILE_DATA.name} | {PROFILE_DATA.role}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="{PROFILE_DATA.name} - Link" />
-	<meta property="og:description" content="{PROFILE_DATA.name} - {PROFILE_DATA.role}" />
+	<meta property="og:title" content="{PROFILE_DATA.name} | Link" />
+	<meta property="og:description" content="{PROFILE_DATA.name} | {PROFILE_DATA.role}" />
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:title" content="{PROFILE_DATA.name} - Link" />
-	<meta property="twitter:description" content="{PROFILE_DATA.name} - {PROFILE_DATA.role}" />
+	<meta property="twitter:title" content="{PROFILE_DATA.name} | Link" />
+	<meta property="twitter:description" content="{PROFILE_DATA.name} | {PROFILE_DATA.role}" />
 
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
