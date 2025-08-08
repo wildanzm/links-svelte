@@ -37,9 +37,9 @@
 <button on:click={toggleTheme} class="theme-toggle" aria-label="Toggle theme">
 	<span class="toggle-icon" aria-hidden="true" class:rotating={animating}>
 		{#if isDark}
-			<Sun size={20} />
-		{:else}
 			<Moon size={20} />
+		{:else}
+			<Sun size={20} />
 		{/if}
 	</span>
 </button>
