@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm ci --no-optional && npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist",
-  "installCommand": "npm ci --no-optional",
+  "installCommand": "npm install",
   "framework": null
 }
